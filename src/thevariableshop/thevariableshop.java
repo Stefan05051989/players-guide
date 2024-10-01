@@ -7,10 +7,9 @@ public class thevariableshop {
         int myNum = -2147483647; // getal tussen de -2147383648 en 2147483647
         long myLong =9223372036854775806L; // getal tussen de -9223372036854775806 en 9223372036854775807
         float myFloat = 1.1234567F;// decimale getallen tot 6 of 7 achter de komma
-        double myDouble = 1.123456789101112131415;
         double myDouble = 0.000000000000001;// decimale en fractie getallen tot 15 achter de komma
         boolean myBoolean = true; // waar of niet waar
-        char myChar = 224;// 224 = A alleenstaande letters of ASCII (ASK-EE sjabloon) waardes
+        char myChar = 224;// 224 = ä alleenstaande letters of ASCII (ASK-EE sjabloon) waardes
         System.out.println(myByte);
         System.out.println(myShort);
         System.out.println(myNum);
