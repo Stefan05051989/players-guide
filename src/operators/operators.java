@@ -41,7 +41,13 @@ public class operators {
         System.out.println(x ^ 3);
         System.out.println(x >> 3);
         System.out.println(x << 3);
-        /* deze voer ik uit in operators 2 omdat ik in deze opzet variabel X niet kan toewijzen als boolean*/
-
+        /* nu ga ik verder met de comparison (vergelijking) operators*/
+        // hieronder staan de vergelijkingen met alle soorten
+        System.out.println(x == y); // == : Equal to (gelijk aan)
+        System.out.println(x != y);// != Not Equal ( niet gelijk aan)
+        System.out.println(x > y); // Greater than ( groter dan)
+        System.out.println(x < y); // Less than (minder dan)
+        System.out.println(x >= y); // Greater than or equal to (groter dan of gelijk aan)
+        System.out.println(x <= y); // Less than or equal to (minder dan of gelijk aan)
     }
 }
