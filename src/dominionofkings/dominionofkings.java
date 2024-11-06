@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class dominionofkings {
     public static void main(String[] args){
-        System.out.println("Wat is Uw Naam? :");
+        System.out.println("Wat is Uw Naam 1Celik 2Malik 3Basik? :");
         Scanner in = new Scanner(System.in);
         String myName = in.nextLine();
         System.out.println("Hoeveel landgoederen bezit U?");
