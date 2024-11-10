@@ -9,20 +9,21 @@ public class defense{
     public static final String Green = "\u001B[32m";
     public static final String Yellow = "\u001B[33m";
     public static final String Blue = "\u001B[34m";
+    // einde kleurcodes
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Which row will the attack be in");
+        System.out.println("Which row will the attack be in? ");
         int row = scanner.nextInt();
-        System.out.println("Which col will the attack be in");
+        System.out.println("Which col will the attack be in? ");
         int col = scanner.nextInt();
+        
         // nu moeten de instructies in een andere kleur worden gegeven!
         System.out.println(Red + "(" + row + ", " + (col+1) + ")" + Reset);
         System.out.println(Green + "(" + row + ", " + (col-1) + ")" + Reset);
         System.out.println(Yellow + "(" + (row+1) + ", " + col + ")" + Reset);
         System.out.println(Blue + "(" + (row-1) + ", " + col + ")" + Reset);
         Toolkit.getDefaultToolkit().beep();
-        //dit is de toolkit dat het geluidje afspeeld, gevonden via :
+        //dit is de toolkit dat het geluidje afspeeld, ik weet niet wat deze nog meer kan, gevonden via :
         //https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println
     }
 }
