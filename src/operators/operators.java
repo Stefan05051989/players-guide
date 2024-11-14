@@ -41,7 +41,7 @@ public class operators {
         System.out.println(x ^ 3);
         System.out.println(x >> 3);
         System.out.println(x << 3);
-        /* nu ga ik verder met de comparison (vergelijking) operators*/
+        // nu ga ik verder met de comparison (vergelijking) operators
         // hieronder staan de vergelijkingen met alle soorten
         System.out.println(x == y); // == : Equal to (gelijk aan)
         System.out.println(x != y);// != Not Equal ( niet gelijk aan)
