@@ -1,13 +1,8 @@
-package introduction.basics.arraynumbers;
+package introduction.basics.arrays;
 
-public class arraynumbers {
-    public static void main(String[] args);
-    int ages[]= new int[]{21, 34, 87, 45, 59, 67, 32, 18, 38, 35, 89, 56};
-    float avg, sum=0;
-    int length = ages.length;
-    for (int age:ages){
-        sum + age;
-        avg = sum/length;
-        System.out.println("De gemiddelde leeftijd is : "+avg);
+public class arrays {
+    public static void main(String[] args){
+    String[] cars= {"Volvo", "Mazda", "Ford", "BMW"};
+        System.out.println(cars[2]);
     }
 }
