@@ -1,4 +1,4 @@
-package helloother;
+package challengetwowhatcomesnext;
 
 public class helloother {
     public static void main(String[] args){
