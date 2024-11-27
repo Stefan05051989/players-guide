@@ -15,8 +15,8 @@ public class Buyinginventory {
             System.out.println("Price is " + price + " gold");
 
             System.out.println("Would you like to see the price of another product? ");
-            String answerString = scanner.nextLine();
-            if(answerString.equalsIgnoreCase("no")){
+            String supercooleenhelegavestringmeteenslechtenaam = scanner.nextLine();
+            if(supercooleenhelegavestringmeteenslechtenaam.equalsIgnoreCase("no")){
                 answer = false;
             scanner.close();
             }
