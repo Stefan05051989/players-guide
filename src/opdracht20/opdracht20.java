@@ -26,14 +26,17 @@ public class opdracht20 {
         return Integer.valueOf((askForNumber.nextInt()));
     }
 
-    public static int askForNumberInRange(String text, int min, int max) {
-        Scanner scanner = new Scanner(System.in);
+    public static int askForNumber(String text, @NotNull Scanner scanner) {
         int number;
-        System.out.println(text);
-        do {
-            System.out.println("enter a number between" + " " + min + " " + "and" + max);
-            number = scanner.nextInt();
-        } while (number <= max && number >= min);
-        return number;
+        while (true) {
+            try {
+                System.out.println(text);
+                String input = scanner.nextLine();
+                number = Integer.parseInt(input);
+                return number;
+            } catch (NumberFormatException e) {
+                System.out.println("No valid input, enter a number between 0 and 287");
+            }
+        }
     }
 }

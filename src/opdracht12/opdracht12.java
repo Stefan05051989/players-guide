@@ -10,7 +10,7 @@ public class opdracht12 {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
         System.out.println("Voer een nummer in: ");
-        int nummer = scanner.nextInt();{
+        int nummer = askForNumber();{
             if (nummer % 2 == 0){
                 System.out.println("Tick");
             } else {
@@ -19,6 +19,9 @@ public class opdracht12 {
             scanner.close();
         }
     }
-
+    public static int askForNumber() {
+        Scanner askForNumber = new Scanner(System.in);
+        return Integer.valueOf((askForNumber.nextInt()));
+    }
 
 }
